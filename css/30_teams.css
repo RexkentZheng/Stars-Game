@@ -1,0 +1,468 @@
+			body{
+				margin: 0;
+				padding: 0;
+				height: 1000px;
+				background: url(img/bg_r.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				overflow: hidden;
+				color: white;
+			}
+			.shown{
+				display: none;
+			}
+			.showd{
+				display: block;
+			}
+			.hidden{
+				opacity: 0.1;
+			}
+			.team{
+				width: 180px;
+				height: 180px;
+				position: relative;
+				border-radius: 50%;
+				position: absolute;
+			}
+			.castle{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				left: 58px;
+				top: 48px;
+				border-radius: 50%;
+			}
+			.castle1{
+				background: url(img/star1.png);
+				background-size: cover;
+			}
+			.castle2{
+				background: url(img/star2.png);
+				background-size: cover;
+			}
+			.castle3{
+				background: url(img/star3.png);
+				background-size: cover;
+			}
+			.castle4{
+				background: url(img/star4.png);
+				background-size: cover;
+			}			
+			.castle5{
+				background: url(img/star5.png);
+				background-size: cover;
+			}
+			.castle6{
+				background: url(img/star6.png);
+				background-size: cover;
+			}			
+			.castle7{
+				background: url(img/star7.png);
+				background-size: cover;
+			}
+			.castle8{
+				background: url(img/star8.png);
+				background-size: cover;
+			}			
+			.castle9{
+				background: url(img/star9.png);
+				background-size: cover;
+			}
+			.castle10{
+				background: url(img/star10.png);
+				background-size: cover;
+			}	
+			.castle11{
+				background: url(img/star11.png);
+				background-size: cover;
+			}
+			.castle12{
+				background: url(img/star12.png);
+				background-size: cover;
+			}
+			.castle13{
+				background: url(img/star13.png);
+				background-size: cover;
+			}	
+			.castle14{
+				background: url(img/star14.png);
+				background-size: cover;
+			}
+			.castle15{
+				background: url(img/star15.png);
+				background-size: cover;
+			}		
+			.castle16{
+				background: url(img/star16.png);
+				background-size: cover;
+			}
+			.castle17{
+				background: url(img/star1.png);
+				background-size: cover;
+			}
+			.castle18{
+				background: url(img/star7.png);
+				background-size: cover;
+			}
+			.castle19{
+				background: url(img/star5.png);
+				background-size: cover;
+			}
+			.castle20{
+				background: url(img/star10.png);
+				background-size: cover;
+			}
+			.castle21{
+				background: url(img/star13.png);
+				background-size: cover;
+			}
+			.castle22{
+				background: url(img/star14.png);
+				background-size: cover;
+			}
+			.castle23{
+				background: url(img/star2.png);
+				background-size: cover;
+			}
+			.castle24{
+				background: url(img/star6.png);
+				background-size: cover;
+			}
+			.castle25{
+				background: url(img/star5.png);
+				background-size: cover;
+			}
+			.castle26{
+				background: url(img/star11.png);
+				background-size: cover;
+			}
+			.castle27{
+				background: url(img/star15.png);
+				background-size: cover;
+			}
+			.castle28{
+				background: url(img/star8.png);
+				background-size: cover;
+			}
+			.castle29{
+				background: url(img/star1.png);
+				background-size: cover;
+			}
+			.castle30{
+				background: url(img/star4.png);
+				background-size: cover;
+			}
+				
+			.guard{
+				width: 22px;
+				height: 22px;
+				background: url(img/weixing1_r.png);
+				background-size: cover;
+			}
+			#team0{
+				left: 1250px;
+				top: 160px;
+			}
+			#team1{
+				left: 1400px;
+				top: 240px;
+			}
+			#team2{
+				left: 1400px;
+				top: 400px;
+			}
+			#team3{
+				left:1250px ;
+				top: 500px;
+			}
+			#team4{
+				left: 1050px;
+				top: 160px;
+			}
+			#team5{
+				left:900px ;
+				top: 240px;
+			}
+			#team6{
+				left:900px ;
+				top: 400px;
+			}
+			#team7{
+				left:1050px ;
+				top: 500px;
+			}
+			#team8{
+				left: 1150px;
+				top: 10px;
+			}
+			#team14{
+				left: 1400px;
+				top: 50px;
+			}
+			#team10{
+				left: 1570px;
+				top: 150px;
+			}
+			#team12{
+				left: 1550px;	
+				top: 320px;
+			}
+			#team16{
+				left: 1570px;	
+				top: 490px;
+			}
+			#team18{
+				left: 1420px;	
+				top: 590px;
+			}
+			#team9{
+				left: 1150px;
+				top: 650px;
+			}
+			#team19{
+				left: 870px;
+				top: 590px;
+			}
+			#team17{
+				left: 720px;
+				top: 490px;
+			}
+			#team13{
+				left: 740px;
+				top: 320px;
+			}
+			#team11{
+				left: 720px;
+				top: 150px;
+			}
+			#team15{
+				left: 870px;
+				top: 50px;
+			}
+			#team20{
+				left: 1320px;
+				top: 750px;
+			}
+			#team21{
+				left: 980px;
+				top: 750px;
+			}
+			#team22{
+				left: 1560px;
+				top: 700px;
+			}
+			#team23{
+				left:690px ;
+				top: 700px;
+			}
+			#team28{
+				left: 1720px;
+				top: 250px;
+			}
+			#team24{
+				left: 1720px;
+				top: 420px;
+			}
+			#team26{
+				left: 1730px;
+				top: 600px;
+			}
+			#team29{
+				left: 570px;
+				top: 250px;
+			}
+			#team25{
+				left: 570px;
+				top: 420px;
+			}
+			#team27{
+				left:540px ;
+				top: 600px;
+			}
+			
+
+
+			.guard_c1{
+				left: 80px;
+				top: 10px;
+			}
+			.guard_c2{
+				left: 130px;
+				top: 12px;
+			}
+			.guard_c3{
+				left: 165px;
+				top: 45px;
+			}
+			.guard_c4{
+				left: 172px;
+				top: 90px;
+			}
+			.guard_c5{
+				left: 155px;
+				top: 130px;
+			}
+			.guard_c6{
+				left: 115px;
+				top: 155px;
+			}
+			.guard_c7{
+				left: 70px;
+				top: 155px;
+			}
+			.guard_c8{
+				left: 35px;
+				top: 130px;
+			}
+			.guard_c9{
+				left: 20px;
+				top: 90px;
+			}
+			.guard_c10{
+				left: 35px;
+				top: 40px;
+			}
+			.attack{
+				width: 20px;  
+				height: 20px;
+    			position: absolute;
+    			/*border: 5px solid #EEEEEE;*/
+    			background: url(img/atack_ball.png);
+    			background-size: cover;
+    			z-index: -1;
+			}
+			#announce_table caption{
+				font-weight: bold;
+			}
+			#announce_table{
+				border: 0;
+			}
+			#announce_table tr{
+				height: 20px;
+			}
+			.rank_btn{
+				margin-left: 40px;				
+			}
+			.btn{
+				width: 130px;
+				height: 30px;
+			}
+			.change_btn{
+				position: absolute;
+				left: 110px;
+				top: 30px;
+			}
+			.announce{
+				position: relative;
+				left: 50px;
+				color: #0093D1;
+				font-size: 25px;
+				margin-top: 50px;
+			}
+			#announce_table{
+				height: 100px;
+			}
+			.rank{
+				position: relative;
+				width: 500px;
+				top: 50px;
+				left:0px;
+				color: #0093D1;
+			}
+			.rank table tr{
+				height: 30px;
+				width: 400px;
+			}
+			.rank table td{
+				width: 200px;
+			}
+			.rank_r{
+				margin-top: 60px;
+				margin-left: -50px;
+			}
+			.journal{
+				width: 500px;
+				margin-top: 50px;
+				color: #0093D1
+			}
+			.rank_total{
+				border: 0;
+				margin-left: 150px;
+			}
+			.rank_attack{
+				border: 0;
+				margin-left: 150px;
+			}
+			.rank_obj_attack{
+				border: 0;
+				margin-left: 150px;
+			}
+			textarea{  
+   	 			border:0;  
+    			background-color:transparent;  
+    			color: #0093D1;  
+			} 
+			.castle p{
+				color: white;
+				font-size: 20px;
+				position: absolute;
+				left: 20px;
+				top: 40px;
+			}
+			.castle img{
+				position: absolute;
+				left: 15px;
+				top: 30px;
+				width: 60px;
+				height: 60px;
+				border-radius:50%;
+			}
+			.journal_btn{
+				margin-left: 110px;
+			}	 
+			.announce_btn{
+				margin-left: 90px;
+				margin-top: -70px;
+			}
+						.game_name{
+				width: 70px;
+				height: 500px;
+				line-height: 80px;
+				font-size: 50px;
+				color: white;
+				position: absolute;
+				left: 560px;
+				top: 100px;
+			}
+			.game_sponsor{
+				width: 70px;
+				height: 500px;
+				line-height:60px ;
+				font-size: 40px;
+				color: white;
+				position: absolute;
+				left: 630px;
+				top: 350px;
+			}
+			.game_time{
+				width: 500px;
+				height: 80px;
+				line-height: 70px;
+				font-size: 60px;
+				color: white;
+				position: absolute;
+				left: 470px;
+				top: 960px;
+			}	
+			.game_time ul li{
+				list-style-type: none;
+				float: left;
+			}
+			.time{width:100%;text-align:center;font-size: 40px;font-family: cursive;color:lightgoldenrodyellow;font-weight: 600; position: absolute;left: -280px; top: 950px;}
+			.time ul{list-style:none;position: absolute;left: 33%;top: 30%;}
+			.time ul li{float:left;width:20px;height:50px;line-height:50px;margin:8px;position:relative;}
+			.time ul li span{position: absolute; width: 100%;left: 0px; top: 0;opacity:1;}
+			.time ul li span.static{border-radius:8px;}
+			.time ul li span.new{top:-70px;opacity:0;}
+			
+			.ending{display:none;height: 50px;line-height: 50px;}

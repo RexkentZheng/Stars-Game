@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>		
+		</style>
+	</head>
+	<body>
+		<div class="announce">
+			<!--<div class="btn-group text-center announce_btn">
+				<input class="btn btn-success past_notice" type="button" name="" id="" value="上一条" style="font-size: 27px;" />
+				<input class="btn next_notice" type="button" name="" id="" value="下一条" style="font-size: 27px;" />
+			</div>-->
+			<div class="select announce_btn">
+				<span class="last past_notice">&lt;</span>
+				<span class="next next_notice">&gt;</span>
+			</div>
+			<table id="announce_table" border="0" cellspacing="" cellpadding="" width="400px">
+				<caption >比赛须知公告</caption>
+				<tr>
+					<th>标题：</th>
+					<th id="notice_title"></th>
+				</tr>
+				<tr>
+					<th>内容：</th>
+					<th id="notice_content"></th>
+				</tr>
+			</table>
+		</div>
+		<div class="rank">
+			<!--<div class="btn-group text-center rank_btn">
+				<input class="btn btn-success rank_t" type="button" name="" id="b1" value="得分排行" style="font-size: 27px;" />
+				<input class="btn rank_a" type="button" name="" id="" value="进攻排行"style="font-size: 27px;" />
+				<input class="btn rank_b_a" type="button" id="" value="被进攻排行"style="font-size: 27px;" />
+			</div>
+			<div class="btn-group text-center change_btn">
+				<input class="btn btn-success ten_teams" type="button" name="" id="" value="前十排名" style="font-size: 27px;" />
+				<input class="btn all_teams" type="button" name="" id="" value="所有队伍" style="font-size: 27px;" />
+			</div>-->
+			<div class="rank_btn">
+				<ul>
+					<li class="rank_a" id="left_b">&lt;</li>
+					<li>名次</li>
+					<li>队名</li>
+					<li class="rank_t" id="table_name" value="1">总分排行</li>
+					<li class="rank_b_a" id="right_b">&gt;</li>
+				</ul>
+			</div>
+			<div class="rank_r">
+			<table  class="rank_total" width="" border="0" cellspacing="" cellpadding="">
+
+			</table>
+			<table  class="rank_attack shown" width="400px" border="0" cellspacing="" cellpadding="">
+
+			</table>
+			<table  class="rank_obj_attack shown" width="400px" border="0" cellspacing="" cellpadding="">
+
+			</table>			
+				
+			</div>
+		</div>
+		<div class="journal">
+			<!--<div class="btn-group text-center journal_btn">
+				<input class="btn btn-success log_j" type="button" name="" id="" value="实时墙" style="font-size: 27px;" />
+				<input class="btn  score_j" type="button" name="" id="" value="得分日志"style="font-size: 27px;" />
+			</div>-->
+			<div class="journal_btn">
+				<ul>
+					<li class="log_j active">实时墙</li>
+					<li class="score_j">得分日志</li>
+				</ul>
+			</div>
+			<div class="wrap_log">
+				<!-- <textarea readonly="readonly" style="background-color: transparent;"  id="attack_log" name="" rows="15" cols="20" style="width: 480px;"></textarea>
+				<textarea readonly="readonly" style="background-color: transparent;"  id="score_log" class="shown" name="" rows="15" cols="20" style="width: 480px;"></textarea> -->
+				<P style="background-color: transparent;"  id="attack_log" style="width: 400px;"></textarea>
+				<P style="background-color: transparent;"  id="score_log" class="shown" style="width: 400px;"></textarea>
+			</div>
+			<!--<div>
+				<textarea readonly="readonly" style="background-color: transparent;" id="attack_log" name="" rows="15" cols="20" style="width: 480px;"></textarea>
+				<textarea readonly="readonly" style="background-color: transparent;" id="score_log" class="shown" name="" rows="15" cols="20" style="width: 480px;"></textarea>
+			</div>-->
+		</div>
+		<div class="game_name">
+			什么比赛
+		</div>		
+		<div class="game_sponsor">
+			由以利天诚公司赞助
+		</div>
+		<div class="time">
+			<ul>
+				<li class="num"><span class="static old">0</span></li>
+				<li class="num"><span class="static old">0</span></li>
+				<li><span>:</span></li>
+				<li class="num"><span class="static old">0</span></li>
+				<li class="num"><span class="static old">0</span></li>
+				<li><span>:</span></li>
+				<li class="num"><span class="static old">0</span></li>
+				<li class="num"><span class="static old">0</span></li>
+			</ul>
+		<div>
+		
+		<script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="onload.js" type="text/javascript" charset="utf-8"></script>
+		<script src="cartoon.js" type="text/javascript" charset="utf-8"></script>
+
+	</body>
+</html>

@@ -1,0 +1,353 @@
+			body{
+				margin: 0;
+				padding: 0;
+				height: 1000px;
+				background: url(img/bg_r.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				overflow: hidden;
+				color: white;
+			}
+			.team{
+				width: 180px;
+				height: 180px;
+				position: relative;
+				border-radius: 50%;
+				position: absolute;
+			}
+			.castle{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				left: 58px;
+				top: 48px;
+				border-radius: 50%;
+			}
+			#castle1{
+				background: url(img/star1.png);
+				background-size: cover;
+			}
+			#castle2{
+				background: url(img/star2.png);
+				background-size: cover;
+			}
+			#castle3{
+				background: url(img/star3.png);
+				background-size: cover;
+			}
+			#castle4{
+				background: url(img/star4.png);
+				background-size: cover;
+			}			
+			#castle5{
+				background: url(img/star5.png);
+				background-size: cover;
+			}
+			#castle6{
+				background: url(img/star6.png);
+				background-size: cover;
+			}			
+			#castle7{
+				background: url(img/star7.png);
+				background-size: cover;
+			}
+			#castle8{
+				background: url(img/star8.png);
+				background-size: cover;
+			}			
+			#castle9{
+				background: url(img/star9.png);
+				background-size: cover;
+			}
+			#castle10{
+				background: url(img/star10.png);
+				background-size: cover;
+			}	
+			#castle11{
+				background: url(img/star11.png);
+				background-size: cover;
+			}
+			#castle12{
+				background: url(img/star12.png);
+				background-size: cover;
+			}
+			#castle13{
+				background: url(img/star13.png);
+				background-size: cover;
+			}	
+			#castle14{
+				background: url(img/star14.png);
+				background-size: cover;
+			}
+			#castle15{
+				background: url(img/star15.png);
+				background-size: cover;
+			}		
+			#castle16{
+				background: url(img/star16.png);
+				background-size: cover;
+			}
+			#castle17{
+				background: url(img/star1.png);
+				background-size: cover;
+			}
+			#castle18{
+				background: url(img/star7.png);
+				background-size: cover;
+			}
+			#castle19{
+				background: url(img/star5.png);
+				background-size: cover;
+			}
+			#castle20{
+				background: url(img/star10.png);
+				background-size: cover;
+			}
+			#castle21{
+				background: url(img/star13.png);
+				background-size: cover;
+			}
+			#castle22{
+				background: url(img/star14.png);
+				background-size: cover;
+			}
+			#castle23{
+				background: url(img/star2.png);
+				background-size: cover;
+			}
+			#castle24{
+				background: url(img/star6.png);
+				background-size: cover;
+			}
+				
+			.guard{
+				width: 22px;
+				height: 22px;
+				background: url(img/weixing1_r.png);
+				background-size: cover;
+			}
+			#team0{
+				right: 26px;
+				top: 70px;
+				
+			}
+			#team1{
+				right: 350px;
+				top: 170px;
+				
+			}
+			#team2{
+				right: 270px;
+				top: 10px;
+				
+			}
+			#team3{
+				right: 600px;
+				top: 596px;
+				
+			}
+			#team4{
+				right: 570px;
+				top: 120px;
+				
+			}
+			#team5{
+				right: 345px;
+				top: 355px;
+				
+			}
+			#team6{
+				right:160px;
+				top: 270px;
+							
+			}
+			#team7{
+				right: 800px;
+				top: 650px;
+							
+			}
+			#team8{
+				right: 800px;
+				top: 350px;
+							
+			}
+			#team9{
+				right: 1050px;
+				top: 600px;
+							
+			}
+			#team10{
+				right: 100px;
+				top: 620px;
+							
+			}
+			#team11{
+				right: 570px;
+				top: 300px;
+							
+			}
+			#team12{
+				right: 750px;
+				top: 10px;
+							
+			}
+			#team13{
+				right:30px;
+				top: 454px;
+							
+			}
+			#team14{
+				right: 660px;
+				top:450px;
+							
+			}
+			#team15{
+				right: 940px;
+				top: 40px;
+							
+			}
+			#team16{
+				right: 900px;
+				top: 500px;
+							
+			}
+			#team17{
+				right: 260px;
+				top: 500px;
+							
+			}
+			#team18{
+				right: 1050px;
+				top: 200px;
+							
+			}
+			#team19{
+				right: 400px;
+				top: 640px;
+			}
+			#team20{
+				right: 740px;
+				top: 170px;
+			}
+			#team21{
+				right: 470px;
+				top: 470px;
+							
+			}
+			#team22{
+				right: 1000px;
+				top: 370px;
+							
+			}
+			#team23{
+				right: 900px;
+				top: 500px;
+							
+			}
+
+
+			.guard_c1{
+				left: 80px;
+				top: 10px;
+			}
+			.guard_c2{
+				left: 130px;
+				top: 12px;
+			}
+			.guard_c3{
+				left: 165px;
+				top: 45px;
+			}
+			.guard_c4{
+				left: 172px;
+				top: 90px;
+			}
+			.guard_c5{
+				left: 155px;
+				top: 130px;
+			}
+			.guard_c6{
+				left: 115px;
+				top: 155px;
+			}
+			.guard_c7{
+				left: 70px;
+				top: 155px;
+			}
+			.guard_c8{
+				left: 35px;
+				top: 130px;
+			}
+			.guard_c9{
+				left: 20px;
+				top: 90px;
+			}
+			.guard_c10{
+				left: 35px;
+				top: 40px;
+			}
+			.attack{
+				width: 20px;  
+				height: 20px;
+    			position: absolute;
+    			/*border: 5px solid #EEEEEE;*/
+    			background: url(img/atack_ball.png);
+    			background-size: cover;
+			}
+			#announce_table caption{
+				font-weight: bold;
+			}
+			#announce_table{
+				border: 0;
+			}
+			#announce_table tr{
+				height: 20px;
+			}
+			.rank_btn{
+				margin-left: 90px;
+				
+			}
+			.announce{
+				position: absolute;
+				top: 50px;
+				left: 50px;
+				color: #0093D1;
+			}
+			.rank{
+				position: absolute;
+				width: 500px;
+				top: 180px;
+				left:0px;
+				color: #0093D1;
+			}
+			.rank table tr{
+				height: 30px;
+				width: 400px;
+			}
+			.rank_r{
+				margin-top: 20px;
+			}
+			.journal{
+				width: 500px;
+				position: absolute;
+				top: 540px;
+				left: -20px;
+				color: #0093D1
+			}
+			.rank_total{
+				border: 0;
+				margin-left: 150px;
+			}
+			.rank_attack{
+				border: 0;
+				margin-left: 150px;
+			}
+			.rank_obj_attack{
+				border: 0;
+				margin-left: 150px;
+			}
+			textarea{  
+   	 			border:0;  
+    			background-color:transparent;  
+    			color: #0093D1;  
+}  

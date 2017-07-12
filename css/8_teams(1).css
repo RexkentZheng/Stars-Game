@@ -1,0 +1,355 @@
+			body{
+				margin: 0;
+				padding: 0;
+				height: 1000px;
+				background: url(../img/bg_r.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				overflow: hidden;
+			}
+			.shown{
+				display: none;
+			}
+			.showd{
+				display: block;
+			}
+			.hidden{
+				opacity: 0.1;
+			}
+			.team{
+				width: 400px;
+				height: 400px;
+				position: relative;
+				border-radius: 50%;
+				position: absolute;
+
+			}
+			.castle{
+				width: 230px;
+				height: 230px;
+				position: absolute;
+				left: 58px;
+				top: 48px;
+				border-radius: 50%;
+			}
+			.guard{
+				width: 50px;
+				height: 50px;
+				background: url(../img/weixing1_r.png);
+				background-size: cover;
+			}
+			.castle1{
+				background: url(../img/star1.png);
+				background-size: cover;
+			}
+			.castle2{
+				background: url(../img/star2.png);
+				background-size: cover;
+			}
+			.castle3{
+				background: url(../img/star3.png);
+				background-size: cover;
+			}
+			.castle4{
+				background: url(../img/star4.png);
+				background-size: cover;
+			}			
+			.castle5{
+				background: url(../img/star5.png);
+				background-size: cover;
+			}
+			.castle6{
+				background: url(../img/star6.png);
+				background-size: cover;
+			}			
+			.castle7{
+				background: url(../img/star7.png);
+				background-size: cover;
+			}
+			.castle8{
+				background: url(../img/star8.png);
+				background-size: cover;
+			}
+			#team2{
+				left: 1500px;
+				top: 40px;
+			}
+			#team0{
+				left: 1900px;
+				top: 630px;
+			}
+			#team1{
+				left: 700px;
+				top: 630px;
+			}
+			#team3{
+				left: 1100px;
+				top: 40px;
+			}
+			#team4{
+				left: 1500px;
+				top: 820px;
+			}
+			#team5{
+				left: 1100px;
+				top: 820px;
+			}
+			#team6{
+				left: 1900px;
+				top: 220px;
+			}
+			#team7{
+				left: 700px;
+				top: 220px;
+			}
+
+			.guard_c1{
+				left: 100px;
+				top: -10px;
+			}
+			.guard_c2{
+				left: 200px;
+				top: -10px;
+			}
+			.guard_c3{
+				left: 275px;
+				top: 55px;
+			}
+			.guard_c4{
+				left: 310px;
+				top: 138px;
+			}
+			.guard_c5{
+				left: 275px;
+				top: 216px;
+			}
+			.guard_c6{
+				left: 200px;
+				top: 285px;
+			}
+			.guard_c7{
+				left: 100px;
+				top: 285px;
+			}
+			.guard_c8{
+				left: 20px;
+				top: 216px;
+			}
+			.guard_c9{
+				left: -15px;
+				top: 138px;
+			}
+			.guard_c10{
+				left: 20px;
+				top: 55px;
+			}
+			.attack{
+				width: 80px;  
+				height: 80px;
+    			position: absolute;
+    			/*border: 5px solid #EEEEEE;*/
+    			background: url(../img/atack_ball.png);
+    			background-size: cover;
+    			z-index:-1 ;
+			}
+			#announce_table{
+				border: 0;
+			}
+			#announce_table tr{
+				height: 30px;
+			}
+			.rank_btn{
+				/*margin-left: 90px;	*/
+				padding-top: 10px;			
+			}
+			.btn{
+				width: 200px;
+				height: 50px;
+			}
+			.change_btn{
+				position: absolute;
+				left: 160px;
+			}
+			
+			.rank{
+				position: relative;
+				width: 400px;
+				left:120px;
+				color: #999999;
+				font-size: 20px;
+				margin-bottom: 40px;
+				background: rgba(255,255,255,.1);
+			}
+			.rank table tr{
+				height: 30px;
+				width: 400px;
+			}
+			.rank table td{
+				width: 200px;
+			}
+			.rank_r{
+				margin-top: 50px;
+			}
+			.journal{
+				width: 400px;
+				top: 750px;
+				margin-left: 60px;
+				color: #0093D1
+			}
+			.journal h3{
+				font-size: 30px;
+			}
+			.rank_total{
+				border: 0;
+				margin-left: 60px;
+			}
+			.rank_attack{
+				border: 0;
+				margin-left: 60px;
+			}
+			.rank_obj_attack{
+				border: 0;
+				margin-left: 60px;
+			}
+			textarea{  
+   	 			border:0;  
+    			background-color:transparent;  
+    			color: #0093D1;  
+    			font-size: 30px;
+    			line-height: 30px;
+    			width: 450px;
+}  
+			.castle p{
+				color: white;
+				font-size: 35px;
+				position: absolute;
+				left: 65px;
+				top: 50px;
+			}
+			.castle img{
+				position: absolute;
+				left: 55px;
+				top: 80px;
+				width: 120px;
+				height: 120px;
+				border-radius:50%;
+			}
+			.journal_btn{
+				margin-left: 110px;
+			}
+			.announce_btn{
+				/*margin-left: 90px;
+				margin-top: -70px;*/
+			}
+			.game_name{
+				width: 70px;
+				height: 500px;
+				line-height: 80px;
+				font-size: 50px;
+				color: white;
+				position: absolute;
+				left: 560px;
+				top: 100px;
+			}
+			.game_sponsor{
+				width: 70px;
+				height: 500px;
+				line-height:60px ;
+				font-size: 40px;
+				color: white;
+				position: absolute;
+				left: 630px;
+				top: 350px;
+			}
+			.game_time{
+				width: 500px;
+				height: 80px;
+				line-height: 70px;
+				font-size: 60px;
+				color: white;
+				position: absolute;
+				left: 420px;
+				top: 980px;
+			}	
+			.game_time ul li{
+				list-style-type: none;
+				float: left;
+			}
+			
+
+
+			.time{width:100%;text-align:center;font-size: 40px;font-family: cursive;color:lightgoldenrodyellow;font-weight: 600; position: absolute;left: -280px; top: 950px;}
+			.time ul{list-style:none;position: absolute;left: 33%;top: 30%;}
+			.time ul li{float:left;width:20px;height:50px;line-height:50px;margin:8px 12px;position:relative;}
+			.time ul li span{position: absolute; width: 100%;left: 0px; top: 0;opacity:1;}
+			.time ul li span.static{border-radius:8px;}
+			.time ul li span.new{top:-70px;opacity:0;}
+			
+			.ending{display:none;height: 50px;line-height: 50px;}
+
+		/*公告选择按钮*/
+		.announce{
+				position: relative;
+				left: 120px;
+				color: #999999;
+				font-size: 20px;
+				line-height:40px;
+				margin-top: 70px;
+				margin-bottom: 40px;
+				width:400px;
+				background:rgba(255,255,255,.1);
+			}
+		.announce .select{
+			position:relative;
+		}
+		.announce .select span{
+			position:absolute;
+			top:10px;
+			width:25px;
+			height:25px;
+			color:#fff;
+			text-align: center;
+			line-height:25px;
+			background:rgba(255,255,255,0.1);
+			border-radius: 50%;
+			cursor:pointer;
+		}
+		.announce .select span:hover{
+			background:rgba(255,255,255,0.05);
+		}
+		.announce .select span.last{
+			left:10px;
+		}
+		.announce .select span.next{
+			right:10px;
+		}
+
+		/*总分排行*/
+		.rank_btn ul li{
+			list-style: none;
+			float:left;
+			font-size:20px;
+			color:#999999;
+			padding:0 19px;
+		}
+		.rank_btn ul li:first-child,.rank_btn ul li:last-child{
+			padding:0 10px;
+		}
+
+		/*实时墙*/
+		/*.journal{
+			margin-left: 120px;
+		}*/
+		.journal_btn ul li{
+			width:50%;
+			float:left;
+			text-align: center;
+			height:40px;
+			line-height: 40px;
+			color:#999999;
+			background:rgba(255,255,255,.1);
+			list-style: none;
+		}
+		.journal_btn ul li.active{
+			background:rgba(0,0,0,.6);
+		}

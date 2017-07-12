@@ -1,0 +1,354 @@
+			body{
+				margin: 0;
+				padding: 0;
+				height: 1000px;
+				background: url(../img/bg_r.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				overflow: hidden;
+			}
+			.shown{
+				display: none;
+			}
+			.showd{
+				display: block;
+			}
+			.hidden{
+				opacity: 0.1;
+			}
+			.team{
+				width: 260px;
+				height: 260px;
+				position: relative;
+				border-radius: 50%;
+				position: absolute;
+			}
+			.castle{
+				width: 150px;
+				height: 150px;
+				position: absolute;
+				left: 58px;
+				top: 48px;
+				border-radius: 50%;
+			}
+			.castle1{
+				background: url(../img/star1.png);
+				background-size: cover;
+			}
+			.castle2{
+				background: url(../img/star2.png);
+				background-size: cover;
+			}
+			.castle3{
+				background: url(../img/star3.png);
+				background-size: cover;
+			}
+			.castle4{
+				background: url(../img/star4.png);
+				background-size: cover;
+			}			
+			.castle5{
+				background: url(../img/star5.png);
+				background-size: cover;
+			}
+			.castle6{
+				background: url(../img/star6.png);
+				background-size: cover;
+			}			
+			.castle7{
+				background: url(../img/star7.png);
+				background-size: cover;
+			}
+			.castle8{
+				background: url(../img/star8.png);
+				background-size: cover;
+			}			
+			.castle9{
+				background: url(../img/star9.png);
+				background-size: cover;
+			}
+			.castle10{
+				background: url(../img/star10.png);
+				background-size: cover;
+			}	
+			.castle11{
+				background: url(../img/star11.png);
+				background-size: cover;
+			}
+			.castle12{
+				background: url(../img/star12.png);
+				background-size: cover;
+			}
+			.castle13{
+				background: url(../img/star13.png);
+				background-size: cover;
+			}	
+			.castle14{
+				background: url(../img/star14.png);
+				background-size: cover;
+			}
+			.castle15{
+				background: url(../img/star15.png);
+				background-size: cover;
+			}		
+			.castle16{
+				background: url(../img/star16.png);
+				background-size: cover;
+			}	
+			.guard{
+				width: 33px;
+				height: 33px;
+				background: url(../img/weixing1_r.png);
+				background-size: cover;
+			}
+			#team0{
+				left: 1300px;
+				top: 250px;
+			}
+			#team1{
+				left: 1300px;
+				top: 500px;
+			}
+			#team2{
+				left: 1020px;
+				top: 250px;
+			}
+			#team3{
+				left: 1020px;
+				top: 500px;
+			}
+			#team8{
+				left: 1150px;
+				top: 10px;
+			}
+			#team4{
+				left: 1450px;
+				top: 50px;
+			}
+			#team10{
+				left: 1600px;
+				top: 250px;			
+			}
+			#team12{
+				left: 1600px;
+				top: 500px;			
+			}
+			#team5{
+				left: 1450px;
+				top: 700px;			
+			}
+			#team9{
+				left: 1150px;
+				top: 710px;			
+			}
+			#team6{
+				left: 850px;
+				top: 700px;			
+			}
+			#team13{
+				left: 700px;
+				top: 500px;			
+			}
+			#team11{
+				left: 700px;
+				top: 250px;			
+			}
+			#team7{
+				left: 850px;
+				top: 50px;			
+			}
+			#team14{
+				left: 1850px;
+				top: 370px;			
+			}
+			#team15{
+				left: 450px;
+				top: 370px;			
+			}
+			#team16{
+				
+							
+			}
+
+			.guard_c1{
+				left: 80px;
+				top: 0px;
+			}
+			.guard_c2{
+				left: 150px;
+				top: 0px;
+			}
+			.guard_c3{
+				left: 210px;
+				top: 35px;
+			}
+			.guard_c4{
+				left: 230px;
+				top: 100px;
+			}
+			.guard_c5{
+				left: 210px;
+				top: 170px;
+			}
+			.guard_c6{
+				left: 160px;
+				top: 210px;
+			}
+			.guard_c7{
+				left: 100px;
+				top: 210px;
+			}
+			.guard_c8{
+				left: 45px;
+				top: 190px;
+			}
+			.guard_c9{
+				left: 5px;
+				top: 130px;
+			}
+			.guard_c10{
+				left: 20px;
+				top: 55px;
+			}
+			.attack{
+				width: 50px;  
+				height: 50px;
+    			position: absolute;
+    			/*border: 5px solid #EEEEEE;*/
+    			background: url(../img/atack_ball.png);
+    			background-size: cover;
+    			z-index: -1;
+			}
+			#announce_table caption{
+				font-weight: bold;
+			}
+			#announce_table{
+				border: 0;
+			}
+			#announce_table tr{
+				height: 30px;
+			}
+			.rank_btn{
+				margin-left: 40px;
+				margin-bottom: 40px;
+			}
+			.btn{
+				width: 200px;
+				height: 50px;
+			}
+			.change_btn{
+				position: absolute;
+				left: 110px;
+				top: 50px;
+			}
+			.announce{
+				position: relative;
+				left: 110px;
+				color: #0093D1;
+				font-size: 27px;
+				margin-top: 70px;
+				margin-bottom: 40px;
+			}
+			.rank{
+				position: relative;
+				width: 500px;
+				left:40px;
+				color: #0093D1;
+				font-size: 27px;
+			}
+			.rank table tr{
+				height: 30px;
+				width: 400px;
+			}
+			.rank table td{
+				width: 200px;
+			}
+			.rank_r{
+				margin-top: 50px;
+			}
+			.journal{
+				width: 400px;
+				margin-left: 70px;
+				color: #0093D1
+			}
+			.rank_total{
+				border: 0;
+				margin-left: 80px;
+			}
+			.rank_attack{
+				border: 0;
+				margin-left: 80px;
+			}
+			.rank_obj_attack{
+				border: 0;
+				margin-left: 80px;
+			}
+			textarea{  
+   	 			border:0;  
+    			background-color:transparent;  
+    			color: #0093D1;  
+			}
+			.castle p{
+				color: white;
+				font-size: 27px;
+				position: absolute;
+				left: 35px;
+				top: 70px;
+			}
+			.castle img{
+				position: absolute;
+				left: 35px;
+				top: 50px;
+				width: 80px;
+				height: 80px;
+				border-radius:50%;
+			}
+			.journal_btn{
+				margin-left: 110px;
+			}		
+			.announce_btn{
+				margin-left: 90px;
+				margin-top: -70px;
+			}  
+						.game_name{
+				width: 70px;
+				height: 500px;
+				line-height: 80px;
+				font-size: 50px;
+				color: white;
+				position: absolute;
+				left: 560px;
+				top: 100px;
+			}
+			.game_sponsor{
+				width: 70px;
+				height: 500px;
+				line-height:60px ;
+				font-size: 40px;
+				color: white;
+				position: absolute;
+				left: 630px;
+				top: 350px;
+			}
+			.game_time{
+				width: 500px;
+				height: 80px;
+				line-height: 70px;
+				font-size: 60px;
+				color: white;
+				position: absolute;
+				left: 470px;
+				top: 960px;
+			}	
+			.game_time ul li{
+				list-style-type: none;
+				float: left;
+			}
+			.time{width:100%;text-align:center;font-size: 40px;font-family: cursive;color:lightgoldenrodyellow;font-weight: 600; position: absolute;left: -280px; top: 950px;}
+			.time ul{list-style:none;position: absolute;left: 33%;top: 30%;}
+			.time ul li{float:left;width:20px;height:50px;line-height:50px;margin:8px;position:relative;}
+			.time ul li span{position: absolute; width: 100%;left: 0px; top: 0;opacity:1;}
+			.time ul li span.static{border-radius:8px;}
+			.time ul li span.new{top:-70px;opacity:0;}
+			
+			.ending{display:none;height: 50px;line-height: 50px;}
